@@ -16,7 +16,7 @@ namespace Group2PaySys
 {
     public partial class frmDashboard : Form
     {
-        OleDbConnection connection = new OleDbConnection("Provider = Microsoft.ACE.OLEDB.12.0; Data Source = PayrollSystemDatabase.accdb; Persist Security Info = True;Jet OLEDB:Database Password = jarmjpayrollsystem");
+        OleDbConnection connection = new OleDbConnection("Provider = Microsoft.ACE.OLEDB.12.0; Data Source = PayrollSystemDatabase.accdb; Persist Security Info = True;Jet OLEDB:Database Password = payrollsystem");
         public Point mouseLocation;
         public frmDashboard()
         {
